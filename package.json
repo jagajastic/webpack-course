@@ -1,0 +1,20 @@
+{
+  "name": "webpacke-beginner-course",
+  "version": "1.0.0",
+  "description": "learning the basic of webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack src/js/app.js --output dist/bundle.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jagajastic"
+  },
+  "author": "Ibrahim Jos eph",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.28.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
